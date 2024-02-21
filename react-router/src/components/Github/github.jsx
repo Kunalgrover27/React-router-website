@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom'
 
 function Github() {
     const data = useLoaderData()
+    // thats how we usually fetch an API
     // const [data, setData] = useState([])
     // useEffect(() => {
     //  fetch('https://api.github.com/users/hiteshchoudhary')
